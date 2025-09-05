@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1</title>
     <link rel="stylesheet" href="./css/01-gallery.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
@@ -14,11 +13,13 @@
   </head>
   <body>
     <p><a class="go-back-btn" href="http://localhost:5173/">Go Back</a></p>
-    <ul class="gallery"></ul>
-    <script type="module" src="./js/01-gallery.js"></script>
+    <div class="gallery-container">
+      <ul class="gallery"></ul>
+    </div>
     <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"
     ></script>
+    <script type="module" src="./js/01-gallery.js"></script>
   </body>
 </html>
