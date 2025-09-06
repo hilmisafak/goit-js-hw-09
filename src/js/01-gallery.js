@@ -1,5 +1,3 @@
-import { images } from "./images.js";
-
 const galleryContainer = document.querySelector(".gallery");
 
 const markup = images
